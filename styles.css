@@ -1,0 +1,332 @@
+body {
+  font-family: "Roboto Slab", serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.header {
+  display: flex;
+  justify-content: flex-end;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 29px;
+  color: #000000;
+  margin-top: 20px;
+}
+.styleA a {
+  text-decoration: none;
+  margin: 0 10px;
+}
+.ContainerWhite {
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.TopContant {
+  color: #21243d;
+  display: flex;
+  padding: 60px 0px;
+  max-width: 856px;
+  margin: 0 auto;
+}
+.TopContantLetf {
+  width: 70%;
+  padding-right: 20px;
+}
+.TopContantRight {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+}
+.TopContant h1 {
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 60px;
+}
+.TopContant p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  max-width: 497px;
+}
+.imgTopContant {
+  width: 100%;
+  max-width: 243px;
+  min-width: 243px;
+}
+
+.ButtomDownlond button {
+  background: #ff6464;
+  border-radius: 2px;
+  border: none;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 29px;
+  color: #ffffff;
+  padding: 10px 20px;
+  margin-top: 38px;
+}
+.ContainerBlue {
+  background: #edf7fa;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.MidContant {
+  max-width: 856px;
+  margin: 0 auto;
+}
+.MidBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.MidBar a {
+  text-decoration: none;
+}
+.MidContantBox {
+  display: flex;
+  padding-bottom: 16px;
+}
+.MidContantBoxLeft {
+  width: 50%;
+  background: #ffffff;
+  box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
+  border-radius: 4px;
+  padding: 20px;
+  margin-right: 10px;
+}
+.MidContantBoxLeft h3 {
+  display: flex;
+  justify-content: space-between;
+}
+.MidContantBoxRight {
+  width: 50%;
+  background: #ffffff;
+  border-radius: 4px;
+  padding: 20px;
+  margin-left: 10px;
+}
+.LowerContent {
+  max-width: 856px;
+  margin: 15px auto 32px;
+}
+.LowerBar {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 60px;
+  color: #21243d;
+  margin-bottom: 22px;
+}
+
+.LowerBox {
+  display: flex;
+  border-bottom: 1px solid #e0e0e0;
+  margin-top: 29px;
+}
+.InBoxContant {
+  padding: 0px 5px;
+}
+.InBoxContant button {
+  background: #142850;
+  border-radius: 16px;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 60px;
+  color: #ffffff;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  block-size: 36px;
+}
+.OutBoxContant {
+  padding-right: 20px;
+}
+.BoxContantBar {
+  display: flex;
+  align-items: center;
+}
+.BoxContantBar h3 {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+  color: #8695a4;
+}
+.BoxContantBar button {
+  margin-right: 36px;
+}
+.Footer {
+  display: flex;
+  justify-content: center;
+  max-width: 856px;
+  margin: 0 auto;
+  flex-direction: column;
+  align-items: center;
+  padding: 52px 0;
+}
+.centerImg img {
+  margin: 0 17.5px;
+}
+.Copyright {
+  margin-top: 26px;
+}
+.BlogStyle {
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 30px;
+  color: #21243d;
+  padding-top: 160px;
+}
+.BlogStyleCenter {
+  margin: 0 auto;
+  max-width: 856px;
+}
+.ContantBoxBlog {
+  width: 100%;
+  background: #ffffff;
+  border-radius: 4px;
+  padding: 10px;
+  margin-right: 10px;
+}
+.ContantStyleCenter {
+  margin: 0 auto;
+  max-width: 856px;
+}
+.ContantBoxBlog h2 {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 44px;
+  color: #21243d;
+  margin-top: 20px;
+}
+.ContantBarBlog {
+  display: flex;
+  align-items: center;
+}
+.ContantBarBlog h3 {
+  padding-right: 15px;
+}
+.ContantBarBlog h4 {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+  color: #8695a4;
+  padding-left: 15px;
+}
+
+.ContantBlogP {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #21243d;
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 29px;
+}
+.WorkStyle {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  color: #21243d;
+  padding-top: 160px;
+}
+.padding-Start {
+  padding-top: 25px;
+  padding-bottom: 47px;
+}
+.HamburgerMenuIcon img {
+  max-width: 50px;
+  width: 100%;
+  display: none;
+}
+@media only screen and (max-width: 500px) {
+  .HamburgerMenuIcon img {
+    display: block;
+  }
+  .styleA {
+    display: none;
+  }
+  .TopContant {
+    padding: 33px 0 59px;
+
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .imgTopContant {
+    max-width: 180px;
+    min-width: 180px;
+  }
+  .TopContantLetf {
+    width: 100%;
+    padding-right: 0px;
+  }
+  .TopContant h1 {
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+  }
+  .TopContant p {
+    max-width: 328px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .ButtomDownlond {
+    text-align: center;
+  }
+  .ButtomDownlond button {
+    margin-top: 27px;
+  }
+  .MidContant {
+    margin: 0px;
+  }
+  .MidBar {
+    justify-content: center;
+  }
+  .MidBar a {
+    display: none;
+  }
+  .MidContantBox {
+    flex-direction: column;
+  }
+  .MidContantBoxLeft {
+    width: auto;
+    margin-right: 0px;
+    margin-bottom: 10px;
+  }
+  .MidContantBoxLeft h3 {
+    display: flex;
+    justify-content: space-between;
+  }
+  .MidContantBoxRight {
+    width: auto;
+    margin-left: 0px;
+    margin-top: 10px;
+  }
+  .LowerBar {
+    font-size: 18px;
+    text-align: center;
+  }
+  .LowerBox {
+    text-align: left;
+    flex-direction: column;
+  }
+
+  .InBoxContant button {
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 60px;
+    color: #ffffff;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    block-size: 36px;
+  }
+  .OutBoxContant {
+    padding-right: 0px;
+  }
+  .OutBoxContant img {
+    width: 100%;
+  }
+  .LowerBox:nth-child(2),
+  .LowerBox:nth-child(3) {
+    display: none;
+  }
+}
